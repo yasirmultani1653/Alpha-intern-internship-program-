@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.stopwatch {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-btn {
+    background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.control-btn:hover {
+    background: linear-gradient(135deg, #3bb2b8 0%, #42e695 100%);
+}
